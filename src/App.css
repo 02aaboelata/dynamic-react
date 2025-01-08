@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 2px 3px lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+  /* Chef Claude */
+  width: 172px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  /* identical to box height, or 188% */
+  letter-spacing: -0.05em;
+
+  color: #141413;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width: 43px;
+  margin-right: 10px;
+}
+
+.add-ingredients{
+  display: flex;
+  justify-content: center;
+  padding-top: 67px;
+}
+
+.ingredients-box{
+  width: 399px;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #D1D5DB;
+  margin-right: 17px;
+  padding-left: 12px;
+}
+
+.add-button{
+  background-color: #141413;
+  color: #FAFAF8;
+  width: 183px;
+  height: 38px;
+  border-radius: 6px;
 }
